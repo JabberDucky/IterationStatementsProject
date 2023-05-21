@@ -66,12 +66,16 @@ namespace IterationStatements
             // Decrement i by 1
 
             //start for loop here
-            int i = 199;
-            while (i <= numbers.Count && i >= 0)
+            for(int i = 199; i <= numbers.Count && i>=0; i--)
             {
-                // place numbers[i] inside of the Console.WriteLine() method
-                Console.WriteLine(i--);
+                Console.WriteLine(numbers[i]);
             }
+            //int i = 199;
+            //while (i <= numbers.Count && i >= 0)
+
+                // place numbers[i] inside of the Console.WriteLine() method
+                
+            
 
             //------------End of exercise
         }
